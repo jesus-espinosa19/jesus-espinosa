@@ -1,0 +1,13 @@
+﻿Algoritmo ejercicio 1
+	//escribe un programa que a partir de un numero ingresado diga si es menor o igual a 9.
+	
+	definir num Como Entero
+	escribir "digite el numero"
+	leer num
+	
+	si num <= 9 Entonces
+		escribir "numero es menor o igual a 9"
+	SiNo
+		escribir "numero mayor que 9"
+	FinSi
+FinAlgoritmo

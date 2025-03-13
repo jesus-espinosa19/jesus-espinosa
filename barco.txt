@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	esperar 2000 Milisegundos
+	
+	dimension barco[6]
+	
+	barco[1] <- "           ----          ----     "
+	barco[2] <- " _________|    |________|    |_________"
+	barco[3] <- "|                                     |"
+	barco[4] <- " \    []   []   []   []   []   []    /"
+	barco[5] <- "   \_______________________________/"
+	barco[6] <- " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	
+	para i <- 1 hasta 6 con paso 1 Hacer
+		escribir barco[i]
+	FinPara
+FinAlgoritmo

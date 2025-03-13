@@ -1,0 +1,15 @@
+﻿Algoritmo ejercicio 2
+	//crea un programa que a partir de un numero ingresado diga si es el mismo es par o impar.
+	
+	definir num como entero 
+	escribir "digite el numero"
+	leer num
+	
+	si num % 2 == 0 Entonces
+		escribir "el numero es par"
+	SiNo
+		escribir "el numero es impar"
+	FinSi
+
+	
+	FinAlgoritmo

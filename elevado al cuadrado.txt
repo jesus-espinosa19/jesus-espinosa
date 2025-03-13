@@ -1,0 +1,23 @@
+﻿Algoritmo alCuadrado
+	// crear un arreglo con n numeros, ingresados por teclado y mostrar 
+	// sus valores elavados al cuadrado. 
+	
+	definir num Como Entero
+	definir i, valores Como Entero
+	
+	dimension valores[100]
+	
+	escribir "digite la cantidad de numeros"
+	leer num
+	
+	para i <- 1 hasta num con paso 1 Hacer
+		escribir "ingrese el numero", i
+		leer valores[i]
+		
+	FinPara
+	
+	escribir "el numero elevado al cuadrado es : "
+	para i <- 1 hasta num con paso 1 Hacer
+		escribir   valores[i]    "elevado al cuadrado es : ", valores[i]^2
+ 	FinPara
+FinAlgoritmo

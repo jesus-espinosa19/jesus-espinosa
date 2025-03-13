@@ -1,0 +1,13 @@
+﻿Algoritmo ejercicio3
+	//Escribir un programa que sume todos los numeros pares entre 2 y 100-
+    suma <- 0
+	
+	para num <- 2 hasta 100 con paso 2 hacer
+		suma <- suma + num
+		
+    FinPara
+	
+    escribir "La suma de todos los números pares entre 2 y 100 es: ", suma
+
+FinAlgoritmo
+

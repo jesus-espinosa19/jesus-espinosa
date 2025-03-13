@@ -1,0 +1,27 @@
+Algoritmo sin_titulo
+	
+
+	Definir num, i Como Entero
+    Definir fact Como Entero
+    Definir resultado Como Entero
+	
+    Dimension resultado[100]
+	
+    Escribir "Ingrese un número para calcular su factorial:  "
+    Leer num
+    
+    fact <- 1
+    
+    Para i <- 1 Hasta num Hacer
+        fact <- fact * i
+        resultado[i] <- fact
+    FinPara
+    
+    Escribir "El factorial de ", num, " es: ", resultado[num]
+    
+    Escribir "Valores almacenados en el arreglo:"
+    Para i <- 1 Hasta num Hacer
+        Escribir "Factorial de ", i, " = ", resultado[i]
+    FinPara;
+    
+FinAlgoritmo

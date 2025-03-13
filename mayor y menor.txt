@@ -1,0 +1,42 @@
+Algoritmo sin_titulo
+	
+	// ingresar n números, almacenarlos en un arreglo y mostrar el numero o elemento mayor, así como el segundo mayor.
+	
+		Definir coleccionNumeros Como Entero
+		Definir totalElementos Como Entero
+		Definir contador Como Entero
+		Definir valorMaximo Como Entero
+		Definir segundoValor Como Entero
+		
+		Dimension coleccionNumeros[20]
+		
+		Escribir "¿digite cantidad de elementos ? (máximo 20):"
+		Leer totalElementos
+		
+		
+		Para contador <- 1 Hasta totalElementos Hacer
+			Escribir "Ingrese numero  ", contador, ":"
+			Leer coleccionNumeros[contador]
+		FinPara
+		
+		
+		valorMaximo <- coleccionNumeros[1]
+		segundoValor <- -999999
+		
+		
+		Para contador<-1 Hasta totalElementos Hacer
+			Si coleccionNumeros[contador] > valorMaximo Entonces
+				segundoValor <- valorMaximo
+				valorMaximo <- coleccionNumeros[contador]
+			Sino
+				Si coleccionNumeros[contador] > segundoValor Y coleccionNumeros[contador] < valorMaximo Entonces
+					segundoValor <- coleccionNumeros[contador]
+				FinSi
+			FinSi
+		FinPara
+		
+		
+		Escribir "El primer numero mayor es  :", valorMaximo
+		Escribir "El segundo numero mayor es  :", segundoValor
+
+FinAlgoritmo

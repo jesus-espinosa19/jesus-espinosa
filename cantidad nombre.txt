@@ -1,0 +1,21 @@
+﻿Algoritmo cantidad_nombre
+	//crea un programa que permita ingresar un nombre y una cantidad numerica para que asi despues
+	//el programa escriba este nombre tantas veces como su cantidad ingresada. utiliza la funcion MIENTRAS.
+	
+	definir nombre Como Caracter
+	definir num Como Entero
+	
+	escribir "digite nombre"
+	leer nombre
+	
+	escribir "digite la cantidad de veces"
+	leer num
+	
+	Mientras num > 0 hacer 
+		Escribir nombre
+		num <- num - 1
+		
+	FinMientras
+	
+	
+FinAlgoritmo

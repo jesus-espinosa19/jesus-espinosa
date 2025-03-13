@@ -1,0 +1,25 @@
+Algoritmo precioProducto
+	
+	//Disiñe un arreglo en el que se ingrese la cantidad de productos y sus respectivos
+	//precios, para la preparacion de un plato, tambien se debe mostrar al final el costo a gastar
+	
+		Definir cantidadProducto Como Entero
+		Definir gastoTotal Como Real
+		Definir costoProducto Como Real 
+		
+		Escribir "Digite la cantidad de productos"
+		Leer cantidadProducto
+		
+		Dimension costoProducto[cantidadProducto] 
+		
+		gastoTotal <- 0
+		
+		Para i <- 1 Hasta cantidadProducto Hacer
+			Escribir "Ingrese el precio del producto ", i
+			Leer costoProducto[i]
+			gastoTotal <- gastoTotal + costoProducto[i]
+		FinPara
+		
+		Escribir "El costo total a gastar es: ", gastoTotal
+
+FinAlgoritmo
